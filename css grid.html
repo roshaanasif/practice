@@ -1,0 +1,226 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid </title>
+    <style>
+        .grid{
+           
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-auto-columns: 200px;
+            grid-auto-rows: 50px;
+            row-gap: 4px;
+            column-gap: 4px;
+           
+        }
+
+        .grid1 ,.grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8,.grid9,.grid0,.grid11,.grid12,.grid14,.grid16,.grid17,.grid18,.grid19,.grid20,.grid21,.grid22,.grid23,.grid24,.grid25,.grid13,.grid15{
+            background-color: rgba(113, 113, 201, 0.573);
+           
+        }
+     /*first column*/
+        .grid1{
+          grid-column-start: 1;
+          grid-column-end: 1;
+          grid-row-start: 1;
+          grid-row-end: 18;
+
+        }
+
+     /*second column*/
+
+        .grid2{
+          grid-column-start: 2;
+          grid-column-end: 2;
+          grid-row-start: 1;
+          grid-row-end: 9;
+
+        }  
+        .grid3{
+          grid-column-start: 2;
+          grid-column-end: 2;
+          grid-row-start: 9;
+          grid-row-end: 18;
+
+     /*third column*/
+
+
+        } 
+        .grid4{
+          grid-column-start: 3;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 6;} 
+        .grid5{
+          grid-column-start: 3;
+          grid-column-end: 3;
+          grid-row-start: 6;
+          grid-row-end: 12;} 
+        .grid6{
+          grid-column-start:3 ;
+          grid-column-end: 3;
+          grid-row-start: 12;
+          grid-row-end: 18;} 
+       
+
+     /*fourth column*/
+
+       
+        .grid8{
+          grid-column-start: 4;
+          grid-column-end: 4;
+          grid-row-start: 1;
+          grid-row-end: 5;} 
+        .grid9{
+          grid-column-start: 4;
+          grid-column-end: 4;
+          grid-row-start: 5;
+          grid-row-end: 9;} 
+        .grid0{
+          grid-column-start: 4;
+          grid-column-end: 4;
+          grid-row-start: 9;
+          grid-row-end: 14;} 
+        .grid11{
+          grid-column-start: 4;
+          grid-column-end: 4;
+          grid-row-start: 14;
+          grid-row-end: 18;} 
+
+
+     /*fifth column*/
+
+        .grid13{
+          grid-column-start: 5;
+          grid-column-end:5 ;
+          grid-row-start: 1;
+          grid-row-end: 3;} 
+        .grid14{
+          grid-column-start: 5;
+          grid-column-end: 5;
+          grid-row-start: 3;
+          grid-row-end: 6;}
+          
+        .grid15{
+          grid-column-start: 5;
+          grid-column-end: 5;
+          grid-row-start: 6;
+          grid-row-end: 9;}
+        .grid16{
+          grid-column-start: 5;
+          grid-column-end: 5;
+          grid-row-start: 9;
+          grid-row-end: 12;}
+        .grid17{
+          grid-column-start: 5;
+          grid-column-end: 5;
+          grid-row-start: 12;
+          grid-row-end: 15;}
+        .grid18{
+          grid-column-start: 5;
+          grid-column-end: 5;
+          grid-row-start: 15;
+          grid-row-end: 18;}
+        
+     /*sixth column*/
+
+        
+       .grid19{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 1;
+          grid-row-end: 2;
+
+        }
+
+        .grid20{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 2;
+          grid-row-end: 4;
+
+        }  
+        .grid21{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 4;
+          grid-row-end: 6;
+        } 
+        .grid22{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 6;
+          grid-row-end: 8;} 
+        .grid23{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 8;
+          grid-row-end: 10;} 
+        .grid24{
+          grid-column-start:6 ;
+          grid-column-end: 6;
+          grid-row-start: 10;
+          grid-row-end: 12;} 
+        .grid25{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 12;
+          grid-row-end: 14;} 
+        .grid12{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 14;
+          grid-row-end: 16;} 
+        .grid7{
+          grid-column-start: 6;
+          grid-column-end: 6;
+          grid-row-start: 16;
+          grid-row-end: 18;} 
+        
+    </style>
+</head>
+<body>
+    <div class="grid">
+    <div class="grid1">123</div>
+
+    <div class="grid2">345</div>
+    <div class="grid3">678</div>
+
+    <div class="grid4">67</div>
+    <div class="grid5">68</div>
+    <div class="grid6">6</div>
+    
+
+    <div class="grid8">3</div>
+    <div class="grid9">478</div>
+    <div class="grid0">6578</div>
+    <div class="grid11">6768</div>
+
+    <div class="grid12">6786</div>
+    <div class="grid13">6787</div>
+    <div class="grid14">6788</div>
+    <div class="grid15">6787</div>
+    <div class="grid16">6789</div>
+    <div class="grid17">6780</div>
+    
+    <div class="grid18">6782</div>
+    <div class="grid19">6781</div>
+    <div class="grid20">6783</div>
+    <div class="grid21">6784</div>
+    <div class="grid22">6786</div>
+    <div class="grid23">6787</div>
+    <div class="grid24">6786</div>
+    <div class="grid25">6787</div>
+    <div class="grid7">6</div>
+
+
+
+    
+
+    
+
+</div>
+    
+</body>
+</html>
